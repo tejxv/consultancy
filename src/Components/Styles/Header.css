@@ -42,10 +42,31 @@ ul{
 .media-link li{
     display: flex;
     align-items: center;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 0.4em;
     margin-right: 2px;
     font-size: 2.5em;
+    transition: 0.3s all ease;
+}
+#insta:hover{
+    background-color: pink;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+#facebook:hover{
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+#linkedin:hover{
+    background-color: green;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+#twitter:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    transform: scale(1.07);
 }
 .contact-link{
     font-weight: 600;

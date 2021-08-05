@@ -3,6 +3,8 @@ import Header from './Header';
 import Hero from './Hero';
 import Intro from './Intro';
 import MidSection from './MidSection';
+import Faq from './Faq';
+import Footer from './Footer';
 import './Styles/App.css';
 
 class App extends React.Component{
@@ -14,6 +16,8 @@ class App extends React.Component{
         <Hero />
         <Intro />
         <MidSection />
+        <Faq />
+        <Footer />
       </div>
   
     )

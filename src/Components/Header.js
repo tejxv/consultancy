@@ -16,14 +16,14 @@ const Header=()=> {
                 </h2>
                 <div className='contacting'>
                     <ul className='media-link'>
-                        <li><i class="fab fa-instagram"></i></li>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
+                        <li id='insta'><i className="fab fa-instagram"></i></li>
+                        <li id='facebook'><i className="fab fa-facebook-f"></i></li>
+                        <li id='linkedin'><i className="fab fa-linkedin-in"></i></li>
+                        <li id='twitter'><i className="fab fa-twitter"></i></li>
                     </ul>
                     <ul className='contact-link'>
-                        <li id='check'><i class="fas fa-phone"></i>+91-7042627808</li>
-                        <li><i class="far fa-envelope"></i>immiglobal@gmail.com</li>
+                        <li id='check'><i className="fas fa-phone"></i>+91-7042627808</li>
+                        <li><i className="far fa-envelope"></i>immiglobal@gmail.com</li>
                     </ul>
                 </div>
             </div>

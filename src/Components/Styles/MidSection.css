@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Style+Script&display=swap');
 .MidSection{
     width: 100%;
     display: flex;
@@ -5,7 +6,6 @@
     align-items: center;
     justify-content: center;
     color: black;
-    margin-bottom: 100vh;
 }
 .display{
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: center;
     color: #fff;
     font-size: 1.5em;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     background: url('https://wallpaper.dog/large/20382896.jpg');
     background-attachment: fixed;
@@ -41,4 +41,89 @@
 	background: linear-gradient(to top, #0a2a43, transparent);
 	z-index: 1000;
     mix-blend-mode: color;
+}
+.testimonial{
+    padding-top: 4em;
+    background-color: #ededed;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.testimonial h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial h2::after{
+    content: '';
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 2em;
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+.test-cards{
+    display: flex;
+    position: relative;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+}
+.test-cards i{
+    padding: 0 60px 0 40px;
+    font-size: 4em;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+.test-cards i:hover{
+    transform: scale(1.1);
+}
+.test-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(255, 247, 0), rgb(5, 5, 5));
+    transition: 0.3s all ease;
+}
+.test-card h3{
+    font-size: 1.6em;
+}
+.test-card span{
+    display: flex;
+    margin: 0;
+    font-style: italic;
+    color: #505c66;
+    width: 80%;
+    align-items: flex-end;
+}
+.test-card span i{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px;
+    color: gold;
+}
+.test-card p{
+    width: 70%;
+    font-style: italic;
+    border-bottom: 1px solid white;
+    color: #e8e8e8;
+    padding-bottom: 5px;
+}
+.test-card:hover{
+    transform: translateY(-20px);
+}
+.star-container{
+    margin-left: 40px;
 }

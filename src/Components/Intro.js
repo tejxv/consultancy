@@ -23,11 +23,11 @@ const Intro = () =>{
                 </div>
                 <div className='services-bar'>
                     <ul>
-                        <li><i class="fas fa-chart-bar"></i>
+                        <li><i className="fas fa-chart-bar"></i>
 IMMIGLOBAL Services guides you through the maze of questions to find solutions best suited to your profile and / or parameters ensuring you choose the best Career Path</li>
-                        <li><i class="fas fa-chart-bar"></i>IMMIGLOBAL Services is an Indian firm that provides visa facilitation services for moving to any one of the countries.</li>
-                        <li><i class="fas fa-chart-bar"></i>IMMIGLOBAL Services being the registered immigration consultancy company for various countries</li>
-                        <li><i class="fas fa-chart-bar"></i>You should choose IMMIGLOBAL Services because we have your best interests at heart.</li>
+                        <li><i className="fas fa-chart-bar"></i>IMMIGLOBAL Services is an Indian firm that provides visa facilitation services for moving to any one of the countries.</li>
+                        <li><i className="fas fa-chart-bar"></i>IMMIGLOBAL Services being the registered immigration consultancy company for various countries</li>
+                        <li><i className="fas fa-chart-bar"></i>You should choose IMMIGLOBAL Services because we have your best interests at heart.</li>
 
                     </ul>
                 </div>
