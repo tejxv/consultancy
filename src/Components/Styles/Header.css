@@ -42,7 +42,6 @@ ul{
 .media-link li{
     display: flex;
     align-items: center;
-    /* background-color: yellow; */
     padding: 0.4em;
     margin-right: 2px;
     font-size: 2.5em;

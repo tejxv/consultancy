@@ -28,7 +28,7 @@ const Header=()=> {
                 </div>
             </div>
             <div className='section2'>
-                ------Navbar------
+                ------Navbar-------
             </div>
         </div>
     )
